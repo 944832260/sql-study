@@ -15,9 +15,12 @@ drop database 数据库名;
 
 #查询
 SELECT * FROM 表名字
+
 #查询某个表下的id为1的数据
 SELECT * FROM 表名字 WHERE id=1
+
 #更新数据
 UPDATE 表名字 SET phone='666'  WHERE id=2;
+
 #删除数据
 DELETE FROM 表名字 WHERE id=3;
